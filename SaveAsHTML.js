@@ -9,7 +9,7 @@ var address, output, size;
 
 if (system.args.length!=3)
 {
-    console.log('Usage: SaveAsHTML.js URL filename');
+    console.log('Usage: phantomjs SaveAsHTML.js URL filename');
     phantom.exit(1);
 }
 else
