@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>1cm Square Test</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            font-family: Arial, sans-serif;
+        }
+        
+        h1 {
+            margin-bottom: 30px;
+            text-align: center;
+            font-size: 2cm;
+        }
+        
+        .square {
+            width: 1cm;
+            height: 1cm;
+            background-color: red;
+            margin: 20px auto;
+            padding: 0px !important;
+        }
+        
+        .note {
+            margin-top: 30px;
+            font-size: 0.4cm;
+            color: #666;
+            text-align: center;
+            max-width: 80%;
+        }
+    </style>
+</head>
+<body>
+    <h1>1cm Square Test</h1>
+    
+    <div class="square"></div>
+    
+    <p class="note">
+        This red square should be 1cm × 1cm in size.<br>
+        Note: On most devices, this won't match a physical centimeter due to browser DPI assumptions.
+    </p>
+</body>
+</html>
